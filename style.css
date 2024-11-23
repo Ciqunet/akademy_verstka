@@ -1,0 +1,122 @@
+/*
+Советую всегда начинать с этого. Обозначать ширину тела, отсутствие дополнительных лишних отступов у боди, 
+который в своих стилевых характеристиках его имеет. Ну и тут же мы обозначим шрифт для текста страницы и 
+цвет фона.
+*/
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+}
+
+*
+*:before,
+*:after{box-sizing: border-box;} 
+/*
+Свойство, переключающее алгоритм расчёта, значение border-box означает, что алгоритм расчета будет включать 
+в себя border и paddind.Звездочки означают обращение ко всему html-документу. before и after обозначают мол 
+"выполнить свойство до и после элементов".
+*/
+
+/*Эти элементы в своих стилевых характеристиках так же имеют дополнительные отступы margin. Мы их убираем*/
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/*-------------------------------Header--------------------------------*/
+header{
+    width: 100%;
+    height: 88px;
+    position: relative;
+}
+
+/* Свойство position помогает центрировать контейнеры и другие элементы внутри другого. У родителя задается 
+значение relative (мол свободное позиционирование), у дочернего absolute. Обязательно при этом используются 
+свойства top, bottom, right и left, которые будут двигать внутренний контейнер относительно краев родителя*/
+
+.container_header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 3%;
+    left: 3%;
+}
+
+.navigation{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.navigation a{
+    display: inline-block;
+    width: 110px;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    transition: background 0.3ms linear;
+}
+.navigation a:hover{
+    background-color: blueviolet;
+}
+.frame_43{
+    display: flex;
+    margin: auto;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.text_frame_43{
+    text-align: left;
+}
+.text_frame_43 h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+}
+.text_frame_43 pre{
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+    /*font-family: "Sen"*/
+}
+.container_input{
+    color: white;
+    /*расстояние до текста*/
+}
+.container_input div{
+    margin-bottom: 23px;
+}
+.container_input label{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container_input input{
+    background-color: #181823;
+    color: white;
+    width: 526px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.container_input button{
+    background-color: purple;
+    color: white;
+    width: 526px;
+    height: 75px;
+    font-size: 18px;
+    
+}
+.wawa img{
+    text-align: center;
+}
