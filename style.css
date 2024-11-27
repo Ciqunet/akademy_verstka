@@ -120,3 +120,59 @@ header{
 .wawa img{
     text-align: center;
 }
+footer{
+    width: 100%;
+    padding: 2% 0;
+    color: #fff;
+    background-color: #181823;
+}
+footer article{
+    margin: 30px 5% 0;
+    font-weight: 400;
+    font-size: 16px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.icones div{
+    width: 104px;
+    display: flex;
+    flex-flow: row;
+}
+.icones div img{
+    margin-right: 15px;
+}
+.icones img{
+    margin-bottom: 10px;
+}
+
+.footer_navigation{
+    width: 400px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.nav_link1{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 190px;
+}
+.nav_link2{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 140px;
+}
+.footer_navigation a{
+    color: #fff;
+    text-decoration: none;
+}
+footer p{
+    margin-left: 5%;
+    opacity: 0.5;
+}
