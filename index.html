@@ -4,13 +4,17 @@
         <meta charset="utf-8">
         <title>Website_1440</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <!--Делим шапку на части: общий контейнер со всем содержимым шапки (фото и кнопки).
             Отдельно выделяем контейнер с навигацией.-->
             <div class="container_header"> <!--Контейнер для элемента фото и блока навигации-->
-                <img src="Vector@2x.png" alt="Icone">
+                <img src="Vector.png" alt="Icone">
 
                 <div class="navigation"> <!--Контейнер для навигации-->
                     <a href="#">Experience</a>
@@ -21,62 +25,89 @@
             </div>
         </header>
         <main>
-            <article class="frame_43">
-                <div>
-            <div class="text_frame_43">
-                <h1 >Let's get started</h1>
-                <pre>Now that you know a lot about me, let me know if you are interested to work with me.</pre>
-            </div>
-            <div class="container_input">
-                <label for="name" style="color: white;">Name</label>
-                <input type="text" name="NameImput" id="Name" size="." minlength="2" maxlength="10"/>
-            </div>
-            <div class="container_input">
-                <label for="name" style="color: white;">Email</label>
-                <input type="text" name="NameImput" id="Email" size="." minlength="2" maxlength="10"/><!--name для java script,placeholder="Name" текст в строке ввода,size="." размер строки,minlength="1" maxlength="10" мин и макс кол-во символов в строке-->
-            </div>
-            <div class="container_input">
-                <label for="name" style="color: white;">Message</label>
-                <input type="text" name="NameImput" id="Message" size="." minlength="2" maxlength="10" style="size: 10px;" style="height: 100px;"/>
-            </div>
-            <div class="container_input">
-                <button type="submit" name="Let's_get_started">Let's get started</button><!--disabled блокирует кнопку-->
-            </div>
-            </div>
+            <article class="frame_Hero">
+                 <div class="Hero_foto">
+                    <img src="man.jpg" id="Hero" icone="Hero">
+                    <img src="fon.jpg" id="Square" alt="Square">
+                </div>
+                <div class="Hero_text">
+                    <h1>I’m Robin Williams.<br> A Product Designer <br><span style="opacity: 0.5;">based in Italy.</span></h1>
+                    <p>I’m probably the most passionate designer you will ever get to work with. If you have <br>a great project that needs some amazing skills, I’m your guy.</p>
+                </div>
             </article>
         </main>
         <main>
-            <div class="wawa">
-            <img src="321.png" class="wawa">
+            <div class="frame_10">
+                <h1 class="txt">Philosophy & values</h1>
+                <h3 class="txtsm">I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality</h3>
+                <p class="itd"><u>More about me</u></p>
+                <img class="iimg" src="glassball.jpg" width="1440" height="720">
             </div>
-            <footer>
-                <!--подвал 44 фрейм-->
-                <article>
-                    <div class="icones">
-                        <img src="robinw.jpg" alt="Icons" width="130px" height="30px">
-                        <div>
-                            <img src="twitter.jpg" alt="Icone">
-                            <img src="ball.jpg" alt="Icone">
-                            <img src="in.jpg" alt="Icone">
-                        </div> 
+        </main>
+        <main>
+            <div class="cbre">
+                <img src="cbre2.jpg">
+            </div>
+            <div class="epiq">
+                <img src="epiq2.jpg" class="epiq">
+            </div>
+            <div class="f">
+                <img src="f2.jpg">
+            </div>
+            <div class="list">
+                <img src="list2.jpg">
+            </div>
+        </main>
+        <main>
+            <article class="frame_43"> <!--frame 43 / Ввод-->
+                <div class="text_frame_43">
+                    <h1>Let’s get started</h1>
+                    <pre>Now that you know a lot about me, let me know if you are<br>interested to work with me.</pre>
+                </div>
+                <div class="container_inputs">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="NameInput"/>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="EmailInput"/>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="MessageInput" style="height: 100px;"/>
                     </div>
 
-                    <div class="footer_navigation">
-                        <div class="nav_link1">
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Work</a>
-                            <a href="#">Process</a>
-                        </div>
-                        <div class="nav_link2">
-                            <a href="#">Store</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Reading List</a>
-                        </div>
-                    </div>
-                </article>
-                <p>Not Copyright 2020 • Robin Williams. Webflow cloneable</p>
-            </footer>
+                    <button name="Let’s_get_started" type="submit">Let’s get started</button>
+                </div>
+            </article>
         </main>
-    </body>
+     <footer>
+        <article>
+            <div class="icones">
+                <img src="Vector.png" alt="Icons" width="130px" height="30px">
+                <div>
+                    <img src="twitter.jpg" alt="Icone">
+                    <img src="ball.jpg" alt="Icone">
+                    <img src="in.jpg" alt="Icone">
+                </div> 
+            </div>
+
+            <div class="footer_navigation">
+                <div class="nav_link1">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Work</a>
+                    <a href="#">Process</a>
+                </div>
+                <div class="nav_link2">
+                    <a href="#">Store</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Reading List</a>
+                </div>
+            </div>
+        </article>
+        <p>Not Copyright 2020 • Robin Williams. Webflow cloneable</p>
+    </footer>
+     </body>
 </html>
