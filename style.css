@@ -75,6 +75,7 @@ main{
 }
 
 .text_frame_43{
+    margin-top: 80px;
     text-align: left;
 }
 .text_frame_43 h1{
@@ -91,6 +92,7 @@ main{
 }
 
 .container_inputs{
+    margin-top: 80px;
     color: #fff;
     margin-left: 3%;
 }
@@ -130,6 +132,7 @@ main{
     opacity: 0.8;
 }
 footer{
+    margin-top: 80px;
     width: 100%;
     padding: 2% 0;
     color: #fff;
@@ -185,6 +188,7 @@ footer p{
     margin-left: 5%;
     opacity: 0.5;
 }
+/*frame 10*/
 .frame_10{
     color: #181823;
     background-color: #FFF3E4;
@@ -192,12 +196,10 @@ footer p{
     font-size: 55px;
     padding-left: 72px;
     padding-top: 100px;
-    text-align: left;
 
     display: flex;
     flex-flow: row;
     height: 720px;
-
 }
 .txt{
     position: absolute;
@@ -205,9 +207,6 @@ footer p{
     height: 66px;
     left: 72px;
     padding-top: 60px;
-}
-main p{
-    padding-bottom: 60px;
 }
 .txtsm{
     font-size: 18px;
@@ -223,22 +222,26 @@ main p{
     font-weight: 400;
     font-family: "Sen", sans-serif;
     margin-top: 620px;
-    margin-right: 1000px;
     text-align: left;
     position: absolute;
 }
 .iimg{
+    margin-left: 1100px;
     margin-bottom: 400px;
     padding-bottom: 600px;
+}
+/*-frame 27-*/
+.photo_27{
+    margin-top: 80px;
+    overflow: hidden;
 }
 .cbre{
     border: 1px solid #181823;
     border-radius: 5px;
     width: 401px;
     height: 161px;
-    float: left;
     margin-left: 500px;
-    
+    float: left;
 }
 .epiq{
     border: 1px solid #181823;
@@ -246,13 +249,19 @@ main p{
     width: 401px;
     height: 161px;
     float: left;
-    
+
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
 }
 .f{
     border: 1px solid #181823;
     border-radius: 5px;
     width: 402px;
     height: 161px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
     float: left;
 }
 .list{
@@ -262,6 +271,139 @@ main p{
     height: 161px;
     float: left;
 }
+.none{
+    width: 401px;
+    height: 161px;
+}
+/*-frame 32-*/
+.frame_32 h1{ 
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 24px;
+    margin-left: 182px;
+}
+.frame_32 pre{
+    margin-left: 182px;
+    font-size: 18px;
+    color: #8491A0;
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+.photo_32{
+    margin-left: 182px;
+}
+.btext{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 4px;
+    margin-left: 182px;
+    color: white;
+}
+/*-frame 17-*/
+.f17{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.frame_17{
+    margin-top: 120px;
+}
+.frame_17 h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 24px;
+    margin-left: 182px;
+}
+.frame_17 pre{
+    margin-left: 182px;
+    font-size: 18px;
+    color: #8491A0;
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+/*блок с Product Design*/
+.f17_bl{
+    margin-left: 182px;
+}
+.f17_bl h1{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+.f17_bl pre{
+    font-size: 18px;
+    color: #8491A0;
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+.f17bl_img{
+    margin-top: 110px;
+}
+/*блок с Visual Design*/
+.f17_pn{
+    margin-left: 100px;
+}
+.f17_pn h1{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+.f17_pn pre{
+    font-size: 18px;
+    color: #8491A0;
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+.f17pn_img{
+    margin-top: 110px;
+}
+/*блок с Motion Design*/
+.f17_pl{
+    margin-top: 110px;
+    margin-left: 700px;
+}
+.f17_pl h1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    flex: auto;
+}
+.f17_pl pre{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-size: 18px;
+    color: #8491A0;
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+/*блок с Photography*/
+.f17_cm{
+    margin-top: 110px;
+    margin-left: 100px;
+}
+.f17_cm h1{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+.f17_cm pre{
+    font-size: 18px;
+    color: #8491A0;
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+/*--Hero--*/
 .frame_Hero{
     position: relative;
     width: 100%;
@@ -306,4 +448,18 @@ main p{
     font-weight: 400;
     color: #fff;
     margin-top: 30px;
+}
+.frame_30{
+    margin-top: 80px;
+}
+.st1 section{
+    background-color: #181823;
+    width: 636px;
+    height: 830px;
+    color: white;
+}
+.st1 p{
+    font-weight: 700;
+    color: #8491A0;
+    
 }
